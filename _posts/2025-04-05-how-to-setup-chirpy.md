@@ -2,7 +2,7 @@
 title: A Non-Developers Guide to Building This Website
 description: A step-by-step guide for setting up Jekyll on GitHub Pages
 categories: [guide]
-#tags: [chirpy, jekyll, github, web development]
+tags: [chirpy, jekyll, github, github pages]
 pin: True 
 ---
 
@@ -91,3 +91,5 @@ What you do need:
 ## Resources
 <https://chirpy.cotes.page/posts/getting-started/>  
 <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site>  
+<https://github.com/cotes2020/jekyll-theme-chirpy>  
+<https://github.com/cotes2020/chirpy-starter>  
