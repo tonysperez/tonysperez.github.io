@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About Me
-
 Hi! I'm Tony, a security fiend and technology enthusiast.
 
 I focus on hybrid cloud, security, and large-scale infrastructure. Over the past 7+ years, I’ve worked my way from help desk to enterprise environments supporting 10,000+ users. If there's one thing I've learned, it's that secure and reliable systems are not accidental.
