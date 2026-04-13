@@ -3,7 +3,6 @@ title: A Non-Developers Guide to Building This Website
 description: A step-by-step guide for setting up Jekyll on GitHub Pages
 categories: [guide]
 tags: [chirpy, jekyll, github, github pages]
-pin: True 
 ---
 
 This website is hosted on GitHub, for free. Not that the files are on GitHub for some CI/CD pipeline to pull to a web server somewhere, but this website is hosted on GitHub's servers. On top of that, this website is entirely code-based. So posts, themeing, everything, can be managed (and version-controlled) through Git. And this is made possible by the combination of GitHub Pages and Jekyll.
@@ -20,11 +19,11 @@ So what's the catch? Weeell, the documentation leaves a bit to be desired for th
 
 What you do NOT need:
 * A server of any kind
-* Corporate internet which allows you the privilege to pay extra for a static IP
+* Business internet which allows you the privilege to pay extra for a static IP
 * Comprehensive cybersecurity controls to protect against people hacking your website and getting to your home network
 
 What you do need:
-* A GitHub account
+* A GitHub account, and basic familiarity with Git and GitHub
 * A custom domain name (optional, but makes it look much nicer)
 
 ## Step 1 - Copy the Chirpy Starter Repository
@@ -69,24 +68,24 @@ What you do need:
 
 ### Configure your GitHub Page
 
-4. Once the records have propagated, open the Settings on your GitHub Page repo
-5. Again in the 'Code and Automation' section, open the 'Pages' tab
-6. Near the bottom of that section, there is a section called 'Custom Domain'. Enter the your custom domain into the field, then click 'Save'
-7. GitHub will verify that your DNS records are setup correctly
-8.  If it just shows 'DNS Check in Progress', it's not actually doing anything. If you wait for a minute and it still only says that, refresh the page
-9.  When it's actually checking your DNS, it will open a red box that says something to the effect of 'Checking your DNS'
-10. Assuming your DNS is configured correctly, the 'DNS Check in Progress' will be replaced by 'DNS check successful!'. But we're not quite done yet
-11. Now, we wait. The HTTPS certificate which GitHub generated for your GitHub Page only includes github.io, it does not include your custom domain. This means that GitHub now has to generate a HTTPS certificate for your custom domain. You don't actually have to do anything here, but this process can take a couple of hours.
-12. Once GitHub has generated, issued, and distributed an HTTPS certificate just for your website, the 'Enforce HTTPS' box under the DNS check should become clickable. Click it.
-13. Now once again, we wait for GitHub to do it's thing.
+1. Once the records have propagated, open the Settings on your GitHub Page repo
+2. Again in the 'Code and Automation' section, open the 'Pages' tab
+3. Near the bottom of that section, there is a section called 'Custom Domain'. Enter the your custom domain into the field, then click 'Save'
+4. GitHub will verify that your DNS records are setup correctly
+5.  If it just shows 'DNS Check in Progress', it's not actually doing anything. If you wait for a minute and it still only says that, refresh the page
+6.  When it's actually checking your DNS, it will open a red box that says something to the effect of 'Checking your DNS'
+7. Assuming your DNS is configured correctly, the 'DNS Check in Progress' will be replaced by 'DNS check successful!'. But we're not quite done yet
+8. Now, we wait. The HTTPS certificate which GitHub generated for your GitHub Page only includes github.io, it does not include your custom domain. This means that GitHub now has to generate a HTTPS certificate for your custom domain. You don't actually have to do anything here, but this process can take a couple of hours.
+9. Once GitHub has generated, issued, and distributed an HTTPS certificate just for your website, the 'Enforce HTTPS' box under the DNS check should become clickable. Click it.
+10. Now once again, we wait for GitHub to do it's thing.
 
 ### Configure Chirpy
 
-14. Finally, open your repo's Code, and edit `_config.yml` again
-15. Update the `url=""` to have your new custom domain URL (https://tonystech.net)
-16. Commit this change, and wait a few minutes for the Action to complete and for GitHub to propagate the update
-17. Check that you're able to access your GitLab Page using your custom domain. If you can access your Page via your GutHub Page URL but not your custom domain, then you should double-check your DNS records.
-18. Done!
+1. Finally, open your repo's Code, and edit `_config.yml` again
+2. Update the `url=""` to have your new custom domain URL (https://tonystech.net)
+3. Commit this change, and wait a few minutes for the Action to complete and for GitHub to propagate the update
+4. Check that you're able to access your GitLab Page using your custom domain. If you can access your Page via your GutHub Page URL but not your custom domain, then you should double-check your DNS records.
+5. Done!
 
 ## Resources
 <https://chirpy.cotes.page/posts/getting-started/>  
