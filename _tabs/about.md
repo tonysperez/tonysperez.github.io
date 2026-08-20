@@ -6,12 +6,14 @@ order: 4
 
 Hi! I'm Tony, a security fiend and technology enthusiast.
 
-I focus on hybrid cloud, security, and large-scale infrastructure. Over the past 7+ years, I’ve worked my way from help desk to enterprise environments supporting 10,000+ users. If there's one thing I've learned, it's that secure and reliable systems are not accidental.
+Over the past seven years I've worked from help desk to enterprise infrastructure. Along the way I've owned enterprise identity, consolidated fragile server sprawl into highly available clusters, driven security baselines across independent IT units, and built the automation that holds it all together.
 
-The design and operations of these systems is an exercise in risk management. In practice, that usually means accounting for security from the beginning, automating the boring stuff, fixing fragile designs, and building environments that can take a hit without causing chaos.
+I've never been especially loyal to one layer of the stack. The problem decides where I work. Some months that's Conditional Access policy and group design, others it's a hypervisor cluster, a PowerShell triage script, or an LLM pipeline chewing through honeypot telemetry. What stays constant is how I approach it: secure and reliable systems are not accidental. They're an exercise in risk management. In practice that means accounting for security from the beginning, automating the boring stuff, fixing fragile designs before they fail, and building environments that can take a hit without causing chaos.
 
-Along the way, I’ve led infrastructure redesigns that cut costs, built automations that speeds up incident response, and contributed to security initiatives from every angle, from initial conceptual design to execution and ongoing operations.
+Lately a lot of that energy has gone into DShield Prism, an LLM-assisted attack analysis pipeline I built during an apprenticeship with the SANS Internet Storm Center. It taught me as much about designing hard boundaries around a model as it did about attacker behavior.
 
-I currently hold certifications like CISSP, GIAC Incident Handler, and GIAC Python Coder, and I am honored to participate as a member on the GIAC Advisory Board. I’m also working toward a bachelor’s in Applied Cybersecurity through SANS Technology Institute.
+I hold the CISSP along with GIAC certifications in public cloud security (GPCS), Python (GPYC), intrusion analysis (GCIA), and incident handling (GCIH), with cloud automation and cloud penetration testing in progress. I serve on the GIAC Advisory Board and I'm finishing a bachelor's in Applied Cybersecurity at SANS Technology Institute.
 
-But titles and certs only go so far. What really matters to me is real problem solving, real impact, real outcomes. This blog is where I share what I’m building, what I'm (occasionally) breaking, and what I'm leaning along the way. I hope you'll tag along!
+But titles and certs only go so far. What really matters to me is real problem solving, real impact, real outcomes. This blog is where I share what I'm building, what I'm (occasionally) breaking, and what I'm learning along the way.
+
+I hope you'll tag along!

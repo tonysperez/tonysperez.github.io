@@ -1,5 +1,5 @@
 ---
-title: A Non-Developers Guide to Building This Website
+title: A Non-Developer's Guide to Building This Website
 description: A step-by-step guide for setting up Jekyll on GitHub Pages
 categories: [guide]
 tags: [chirpy, jekyll, github, github pages]

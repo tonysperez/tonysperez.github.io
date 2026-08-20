@@ -1,7 +1,7 @@
 ---
 title: Building a Default-Deny Data Boundary for an LLM Pipeline
 description: When you care about controlling your data
-categories: [ai]
+categories: [projects, ai]
 tags: [dshield, dshield prism]
 ---
 

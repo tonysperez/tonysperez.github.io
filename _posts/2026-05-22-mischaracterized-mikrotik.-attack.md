@@ -1,5 +1,5 @@
 ---
-title: Mischarachterized MicroTik Attack - What Stuck In The Honey
+title: Mischaracterized MikroTik Attack - What Stuck In The Honey
 description: Telegram, crypto, and... MikroTik routers?
 categories: [honeypot analysis]
 tags: [dshield, SANS ISC]
