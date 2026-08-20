@@ -3,7 +3,7 @@ title: Identity Is Infrastructure - Lessons From Operating Hybrid AD and Entra I
 description: How bad could messing up your identity system really be?
 categories: [iam]
 tags: []
---------
+---
 
 For a long time, I thought of identity as one part of systems administration. Active Directory handled users and computers. Entra ID handled cloud identity. SSO connected applications. MFA added another layer of protection.
 
